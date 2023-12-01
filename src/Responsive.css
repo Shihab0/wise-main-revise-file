@@ -1,0 +1,894 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1920px) {
+  .lg-mobile {
+    display: none;
+  }
+  .acc-main-mb {
+    display: none;
+  }
+  .forgot-mobile-main,
+  .search-mobile {
+    display: none;
+  }
+  .reset-logo {
+    display: block;
+  }
+  .sign-btn.submit.reset-btn {
+    background: #2b3677;
+  }
+  .mb-banner {
+    display: none;
+  }
+  .mb-bottom-nav {
+    display: none;
+  }
+  .box-desktop {
+    display: none;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  .blog-bottom-mobile {
+    display: none;
+  }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .box-desktop {
+    display: none;
+  }
+  .mb-bottom-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  .acc-main-mb {
+    display: none;
+  }
+  .forgot-mobile-main {
+    display: none;
+  }
+  .sign-btn.submit.reset-btn {
+    background: #2b3677;
+  }
+  .mb-banner {
+    display: none;
+  }
+  .box-desktop {
+    display: none;
+  }
+  .blog-bottom-mobile {
+    display: none;
+  }
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .mb-bottom-nav {
+    display: none;
+  }
+  .forgot-mobile-main {
+    display: none;
+  }
+  .reset-logo {
+    display: block;
+  }
+  .sign-btn.submit.reset-btn {
+    background: #2b3677;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  /* ------------------------home ---------------------- */
+  .mobile-nav {
+    display: none;
+  }
+  .search-mobile {
+    display: none;
+  }
+
+  .box-main {
+    display: none;
+  }
+  .box-wrapper {
+    justify-content: start;
+  }
+  .mb-banner {
+    display: none;
+  }
+  .sidebar-wrapper {
+    width: 60px;
+  }
+  .main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .search-box {
+    width: 60%;
+  }
+  .how h3 {
+    padding-top: 5px;
+  }
+  .input-f {
+    font-size: 15px;
+  }
+  .box-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .topics-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .how h3 {
+    font-size: 25px;
+  }
+  .how i {
+    font-size: 16px;
+  }
+  .how-text {
+    padding-top: 10px;
+  }
+
+  /* ----------------------------account info  -----------------------------*/
+  .acc-main-mb {
+    display: none;
+  }
+  .verify-icon {
+    font-size: 20px;
+    color: #02875b;
+    margin-right: 0;
+  }
+  .single-account {
+    padding: 0 20px;
+  }
+  .accordion-container {
+    margin-left: 45px;
+  }
+  .infoContainer {
+    max-width: 500px;
+    height: 300px;
+    display: block;
+  }
+  .accordion-details {
+    margin-bottom: 50px;
+  }
+  .btn {
+    width: 100%;
+    font-size: 18px;
+  }
+  .btn-active {
+    width: 100%;
+    font-size: 18px;
+  }
+  .single-account h2 {
+    font-size: 20px;
+  }
+  .single-account span {
+    font-size: 18px;
+  }
+  /*----------------------------- login ----------------------- */
+  .left h1 {
+    font-size: 30px;
+    padding: 0 20px;
+    width: 393px;
+    padding-top: 120px;
+  }
+  .login-input input {
+    width: 90%;
+  }
+  .right {
+    padding: 0 30px;
+  }
+  .sign-btn {
+    width: 100%;
+  }
+  .eye {
+    left: 86%;
+    top: -57%;
+  }
+  /*------------------------------- sign up ----------------------------- */
+  /* .left h1 {
+    width: 100%;
+  } */
+  .signUp-Input input {
+    width: 90%;
+  }
+  /* forgot  */
+  .left-forgot {
+    padding: 0 30px;
+  }
+  .left-forgot h2 {
+    width: 100%;
+    font-size: 60px;
+  }
+  .left.left-forgot p {
+    width: 100%;
+  }
+  /*------------------------ form tool ------------------------ */
+  .features-bg h6 {
+    width: 90%;
+  }
+  .features-bg h1 {
+    font-size: 27px;
+  }
+  /* call-popup  */
+  .help-center,
+  .contact,
+  .contact-sms {
+    width: 90%;
+  }
+  /* ----------------------------blog ---------------------------- */
+
+  .blog-body {
+    background-position: bottom left;
+  }
+  .blog-Hero h1 {
+    position: unset;
+    padding-right: 0;
+    color: #283677;
+    padding-left: 46px;
+  }
+  .blg-second-text {
+    display: block;
+  }
+  .blg-second-text img {
+    width: 100%;
+    height: auto;
+  }
+  .blog-bottom-desktop {
+    display: none;
+  }
+  /* ChangePassword  */
+  /* ------------------responsive account info-------------------- */
+  .res-account-info {
+    background-color: #00744e;
+    color: #fff;
+    height: auto;
+  }
+
+  .res-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+  }
+
+  .res-info-icon {
+    font-size: 35px;
+  }
+
+  .res-inputContainer {
+    width: 90%;
+    margin: auto;
+  }
+
+  .res-input-content p {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 100;
+  }
+
+  .res-info-text {
+    width: 60%;
+    text-align: left;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .res-inputField {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    border-bottom: 2px solid #777272;
+    align-items: center;
+  }
+
+  .res-inputField input {
+    width: 90%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white !important;
+    font-size: 34px;
+    font-weight: 400;
+  }
+
+  .res-inputField input::placeholder {
+    font-size: 20px;
+    color: white;
+  }
+
+  .res-verify-icon {
+    color: #10c38a;
+    font-size: 25px;
+  }
+
+  .res-numberBox {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    margin-right: 5px;
+  }
+  .res-numberBox span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #e8dcdc;
+  }
+  .res-verify-now-title {
+    color: #10c38a;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .res-inputField.mb-0 input {
+    margin: 0;
+  }
+  /* ---------------pass field----------------- */
+  .res-passField {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 2px solid #84f3c4;
+    background-color: #439070;
+    padding: 0 15px;
+    width: 95%;
+    height: 50px;
+  }
+
+  .res-passField input {
+    border: none;
+    width: 100%;
+    /* height: 100%; */
+    outline: none;
+    border: none;
+    background-color: #439070;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+  }
+  .res-passField input::placeholder {
+    font-size: 22px;
+    color: white;
+  }
+  .res-pass-icon {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .change-btn {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background: #ef3d3a;
+    border: none;
+  }
+  .change-pass-btn {
+    padding: 100px 0;
+  }
+  .popup-container {
+    max-width: 680px;
+  }
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .slide-container {
+    padding: 0 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .slider-body img {
+    width: 100%;
+    scale: unset;
+  }
+  /* ------------------- blog ---------------------- */
+  .blg-container {
+    padding-bottom: 0;
+  }
+  .slider-body2 img {
+    position: relative;
+    bottom: -21px;
+  }
+  .blog-bottom-desktop {
+    display: none;
+  }
+  .blog-icon {
+    display: none;
+  }
+  .blg-first-text p,
+  .blg-second-text p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .blog-Hero h1 {
+    position: unset;
+    right: unset;
+    padding: 0 41px;
+    color: #283677;
+    font-size: 26px;
+    text-align: left;
+  }
+  .f1-q h1 {
+    font-size: 25px;
+  }
+  .blg-second-text {
+    display: block;
+  }
+  .blg-second-text img {
+    width: 100%;
+    height: auto;
+  }
+  .blg-container {
+    padding-right: 40px;
+  }
+  .f2-q h1 {
+    font-size: 25px;
+  }
+  .p1 {
+    font-size: 16px;
+    padding-left: 40px;
+  }
+  .p2 {
+    font-size: 16px;
+    padding-right: 40px;
+  }
+  .clock {
+    font-size: 16px;
+  }
+  .blog-cross {
+    padding-left: 40px;
+  }
+  .blg-bg-last {
+    display: block;
+    width: 100vw;
+    margin: 0 0 0 -50px;
+  }
+  /*------------------- home --------------------------- */
+  .box-desktop {
+    display: none;
+  }
+  .main {
+    margin: 0;
+    padding: 0;
+  }
+  .input-f {
+    font-size: 12px;
+  }
+  .search-icon {
+    color: gray;
+    width: 20px;
+  }
+  .sidebar-wrapper {
+    display: none;
+  }
+  .box-main {
+    display: block;
+  }
+  .how {
+    display: none;
+  }
+  .top-sec,
+  .topics-area {
+    display: none;
+  }
+  .mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #283677;
+    padding: 30px;
+  }
+  .user-icon {
+    color: white;
+  }
+  .b-logo {
+    margin: 0;
+  }
+  .box-main {
+    display: block;
+    padding: 20px 30px;
+  }
+  .single-box p {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .single-box {
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .search-box {
+    width: 75%;
+    border-radius: 12px;
+    margin: 30px;
+  }
+  .mb-banner img {
+    width: 100%;
+  }
+
+  .menu-mb p {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+  }
+  .menu-mb img {
+    width: 30px;
+    display: flex;
+    margin: 0 auto;
+    height: 30px;
+  }
+  .mb-bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    border-top: 2px solid #a9afc9;
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+  /* -------------------------- log-in ------------------------- */
+
+  .right-login {
+    background-image: linear-gradient(to bottom, #283677, #582f77);
+  }
+  .login-input input {
+    border: 1px solid #b7bcd2;
+  }
+  .left-login {
+    display: none;
+  }
+  .right.right-login img {
+    margin: 0 auto;
+    display: flex;
+  }
+  .right {
+    width: 100%;
+    padding: 0 20px;
+    height: auto;
+  }
+  .signUp-Input input {
+    width: 93%;
+  }
+
+  .sign-btn {
+    width: 100%;
+  }
+
+  .eye {
+    left: 88%;
+    font-size: 20px;
+    top: -56%;
+  }
+  .or {
+    margin-bottom: 200px;
+  }
+  .signUp-logo {
+    padding: 90px 0;
+  }
+  /*------------------ forgot ------------------- */
+  .right-forgot {
+    background-image: linear-gradient(to bottom, #283677, #582f77);
+  }
+  .left-forgot {
+    display: none;
+  }
+  .forgot-logo {
+    display: none;
+  }
+  .forgot-mobile-main h2 {
+    font-size: 51px;
+    color: white;
+  }
+  .forgot-mobile-main p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 70px;
+  }
+  .forgot-input .submit {
+    background: #ef3d3a;
+    border: none;
+  }
+  .right-forgot {
+    padding-bottom: 100px;
+  }
+  /*---------------------------- account info-------------------------  */
+  .single-account {
+    display: none;
+  }
+  .accordion-container {
+    width: 100%;
+    margin-left: 0;
+  }
+  .acc-logo {
+    display: none;
+  }
+  .help {
+    width: 100%;
+    align-items: center;
+  }
+  .help-main {
+    justify-content: center;
+  }
+  .right-single-account {
+    padding: 30px;
+  }
+  .help p {
+    font-size: 20px;
+  }
+  .pro-arrow-fl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 70px;
+  }
+  .back {
+    font-size: 50px;
+    color: white;
+  }
+  .pro-arrow-fl p {
+    font-size: 45px;
+    color: white;
+    font-weight: 400;
+    margin: 0;
+  }
+  .single-account-mobile {
+    display: flex;
+    justify-content: center;
+  }
+  .sur h2 {
+    margin: 0;
+    color: white;
+  }
+  .acc-pro-mb-fl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .user-mb {
+    font-size: 40px;
+    color: #fff;
+    margin-right: 15px;
+  }
+  .accordion-details {
+    display: none;
+  }
+  /* ------------------------sign up---------------------  */
+  .right-signup {
+    background-image: linear-gradient(to bottom, #283677, #582f77);
+  }
+  .left-signup {
+    display: none;
+  }
+  .signUp-Input input {
+    background: #5c5d92;
+    border: 1px solid #eae9f0;
+  }
+  .signUp-logo {
+    display: flex;
+    margin: 0 auto;
+  }
+  /* -----------------------reset password ---------------------- */
+  .forgotImg {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .right-reset {
+    background-image: linear-gradient(to bottom, #283677, #582f77);
+    padding-bottom: 100px;
+  }
+  .reset-logo {
+    display: none;
+  }
+  .reset-btn {
+    background: #ef3d3a;
+  }
+  /* ____________________features______________________ */
+  .features-responsive {
+    text-align: center;
+  }
+
+  /* __________________form tool___________________ */
+  .features-bg {
+    text-align: left;
+  }
+  .features-bg h1 {
+    font-size: 22px;
+  }
+  .features-bg h1 {
+    padding-bottom: 50px;
+  }
+  .fromTool-head {
+    display: flex;
+    justify-content: center;
+    align-items: unset;
+  }
+
+  .features-bg p {
+    font-size: 19px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .cross {
+    margin-left: 2px;
+  }
+  .features-bg h6 {
+    width: 90%;
+    font-size: 16px;
+  }
+  .list {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  .fe-icon-right {
+    /* color: white; */
+    position: absolute;
+    right: 0;
+    padding-right: 20px;
+    padding-bottom: 100px;
+  }
+  /* ChangePassword  */
+  /* ------------------responsive account info-------------------- */
+  .res-account-info {
+    background-color: #00744e;
+    color: #fff;
+    height: auto;
+    /* padding-bottom: 300px; */
+  }
+  .chng-btn {
+    padding-bottom: 80px;
+    padding-top: 200px;
+  }
+  .res-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+  }
+
+  .res-info-icon {
+    font-size: 35px;
+  }
+
+  .res-inputContainer {
+    width: 90%;
+    margin: auto;
+  }
+
+  .res-input-content p {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 100;
+  }
+
+  .res-info-text {
+    width: 70%;
+    text-align: left;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .res-inputField {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    border-bottom: 2px solid #777272;
+    align-items: center;
+  }
+
+  .res-inputField input {
+    width: 90%;
+    background-color: #42906f;
+    outline: none;
+    border: none;
+    /* color: white !important; */
+    font-size: 34px;
+    font-weight: 400;
+  }
+
+  .res-inputField input::placeholder {
+    font-size: 20px;
+    color: white;
+  }
+
+  .res-verify-icon {
+    color: #10c38a;
+    font-size: 25px;
+  }
+
+  .res-numberBox {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    margin-right: 5px;
+  }
+  .res-numberBox span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #e8dcdc;
+  }
+  .res-verify-now-title {
+    color: #10c38a;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .res-inputField.mb-0 input {
+    margin: 0;
+  }
+  /* ---------------pass field----------------- */
+  .res-passField {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 2px solid #84f3c4;
+    background-color: #439070;
+    padding: 0 15px;
+    width: 90%;
+    height: 50px;
+  }
+
+  .res-passField input {
+    border: none;
+    width: 100%;
+    /* height: 100%; */
+    outline: none;
+    border: none;
+    background-color: #439070;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+  }
+  .res-passField input::placeholder {
+    font-size: 22px;
+    color: white;
+  }
+  .res-pass-icon {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .change-btn {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background: #ef3d3a;
+    border: none;
+  }
+  .change-pass-btn {
+    padding: 100px 0;
+  }
+  .slide-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+  }
+  .single-slider {
+    padding: 0 10px;
+  }
+  .slide-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
